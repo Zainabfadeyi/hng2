@@ -23,13 +23,13 @@ Dynamic Parameter Handling: The API can perform operations based on a person's n
 Validation: Fields are validated to ensure they contain only strings; integers or other data types are not allowed.
 
 # Installation
-fastapi
+fastapi 
 unvicorn
 requirement.txt
 virtual environment
 
-#testing
+# testing
 pytest
 
-#Dynamic Parameter Handling
+# Dynamic Parameter Handling
 The API allows for dynamic parameter handling. You can use the GET /api/person?name={name} endpoint to fetch person details based on their name.
