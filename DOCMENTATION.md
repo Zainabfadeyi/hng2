@@ -84,14 +84,13 @@ Content-Type: application/json
   "email": "john.doe@example.com"
 }
 
-### Expected Response
+**Expected Response**
 
----json
 {
   "id": 1,
   "name": "John Doe",
   "age": 30,
   "email": "john.doe@example.com"
 }
----
+
 
