@@ -57,7 +57,11 @@ You can install these dependencies using `pip`. See the [Installation](#installa
 ### Create a virtual environment (optional but recommended):
 
 python -m venv vir
-source vir/bin/activate  
+
+source vir/bin/activate 
+
+### install fast api
+pip install fastapi 
 
 #### Install the required dependencies:
 
@@ -66,8 +70,14 @@ pip install -r requirements.txt
 #### Running the API
 Configure the database URL in the main.py file.
 
+write your models in a models.py file
+
 #### Run the API locally using Uvicorn:
 
 uvicorn app:app --reload
 
 Access the API at http://localhost:8000
+ 
+#### Testing
+create a test.py to test the code 
+test your codes using pytest
