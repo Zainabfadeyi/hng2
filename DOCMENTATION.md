@@ -14,12 +14,13 @@ Request Format:
 # Sample Request:
 
 POST /api/
+---json
 {
   "name": "John Doe",
   "age": 30,
   "email": "john.doe@example.com"
 }
-
+---
 # Response Format:
 
 {
